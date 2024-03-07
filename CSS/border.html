@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        .all-borders{
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+        .bottom-border{
+            border-bottom: 1px solid red;
+            padding: 10px;
+            margin: 10px;
+        }
+        .rounded-border{
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .left-border{
+            border-left: 5px solid blue;
+            padding: 10px;
+            margin: 10px;
+            background-color: aquamarine;
+        }
+        .border-box{
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            /* border-radius: 30px; */
+           width: 50%;
+
+        }
+        .border-box h3{
+            text-align: center;
+        }
+        .border-box p{
+            text-align: justify;
+        }
+        .row{
+            display: flex;
+        }
+        .btn{
+            /* 1st method */
+            /* margin: 30px; */
+            /* 2nd method */
+            /* margin: top-buttom left-right; */
+            /* margin: 20px 5px; */
+            /* 3rd method */
+            /* margin: top right bottom left; */
+            /* margin: 10px 2px 3px 4px; */
+            margin-top: 10px;
+            margin-bottom: 4px;
+            margin-left: 4px;
+            margin-right: 2px;
+            /* padding: 5px 20px; */
+            /* padding: 50px 20px 10px 5px; */
+            /* padding-top: 50px; */
+            /* padding-right: 20px; */
+            /* padding-bottom: 10px; */
+            /* padding-left: 5px; */
+            padding: 10px 30px;
+            background-color: grey;
+            color: white;
+            border: none;
+            /* border-radius: 20px; */
+            /* box-shadow: 2px 3px 4px #000; */
+        }
+        .btn:hover{
+            box-shadow: 2px 3px 4px #000;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p class="all-borders">I have border on all sides.</p>
+
+    <p class="bottom-border">I have a red bottom border.</p>
+    
+    <p class="rounded-border">I have rounded borders.</p>
+
+    <p class="left-border">I have a blue left border.</p>
+
+    <div class="row">
+        <div class="border-box">
+            <h3>I am heading.</h3>
+            <p>a single distinct meaningful element of speech or writing, used with others (or sometimes alone) to form a sentence and typically shown with a space on either side when written or printed.
+                "I don't like the word ‘unofficial’.WordTips Word Finder helps you find all cheats and highest scoring words for Scrabble & Words with Friends. This word generator creates words from letters.
+                ‎Words With Letters · ‎5 Letter Words · ‎Are Words · ‎Words With Do"</p>
+        </div>
+        <div class="border-box">
+            <h3>I am heading.</h3>
+            <p>a single distinct meaningful element of speech or writing, used with others (or sometimes alone) to form a sentence and typically shown with a space on either side when written or printed.
+                "I don't like the word ‘unofficial’.WordTips Word Finder helps you find all cheats and highest scoring words for Scrabble & Words with Friends. This word generator creates words from letters.
+                ‎Words With Letters · ‎5 Letter Words · ‎Are Words · ‎Words With Do"</p>
+        </div>
+        <div class="border-box">
+            <h3>I am heading.</h3>
+            <p>a single distinct meaningful element of speech or writing, used with others (or sometimes alone) to form a sentence and typically shown with a space on either side when written or printed.
+                "I don't like the word ‘unofficial’.WordTips Word Finder helps you find all cheats and highest scoring words for Scrabble & Words with Friends. This word generator creates words from letters.
+                ‎Words With Letters · ‎5 Letter Words · ‎Are Words · ‎Words With Do"</p>
+        </div>
+        <div class="border-box">
+            <h3>I am heading.</h3>
+            <p>a single distinct meaningful element of speech or writing, used with others (or sometimes alone) to form a sentence and typically shown with a space on either side when written or printed.
+                "I don't like the word ‘unofficial’.WordTips Word Finder helps you find all cheats and highest scoring words for Scrabble & Words with Friends. This word generator creates words from letters.
+                ‎Words With Letters · ‎5 Letter Words · ‎Are Words · ‎Words With Do"</p>
+        </div>
+    </div>
+
+    <p style="border: 1px solid red; margin: 30px;">Margin</p>
+    <p style="border: 1px solid red; padding: 30px;">Padding</p>
+    <div class="border-box">
+        <button class="btn">Hello</button>
+    </div>
+
+</body>
+</html>

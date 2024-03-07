@@ -1,0 +1,22 @@
+h1{
+    color: rgb(11, 128, 0);
+    background-color: rgb(86, 172, 57);
+}
+.logo{
+    color: pink;
+    background-color: black;
+}
+.country{
+    color: antiquewhite;
+    background-color: aqua;
+}
+#greeting{
+    color: bisque;
+    background-color: rgb(175, 142, 223);
+}
+/* text  css */
+.welcome{
+    font-size: 50px;
+    font: weight 900px;
+    color: #324ea8;
+}
