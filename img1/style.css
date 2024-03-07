@@ -31,9 +31,10 @@ nav{
     background-color: #000;
 }
 .grid{
-    display: flex;
+    display: grid;
     justify-content: left;
     align-items: center;
+ 
    
 }
 .grid img{
