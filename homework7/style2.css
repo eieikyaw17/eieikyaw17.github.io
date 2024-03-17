@@ -5,17 +5,18 @@
 }
 .grid-container{
     display: flex;
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto; */
+    justify-content:space-evenly;
     padding: 50px;
     background-color: rgb(250, 227, 227);
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
-.grid{
+/* .grid{
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-content:center;
    height: 600;
-}
+} */
 .jjp1{
     font-size: 16px;
     font-weight: 600;
